@@ -28,20 +28,20 @@
 
 2. При помощи `ansible-galaxy` скачана эта роль.
 
-![2](https://github.com/expgt/net-fops-hw-16-1/blob/main/16_4_2.png)
+![2](https://github.com/expgt/net-fops-hw-16-4/blob/main/16_4_2.png)
 
 3. Создан новый каталог с ролью при помощи `ansible-galaxy role init vector-role`.
 
-![3](https://github.com/expgt/net-fops-hw-16-1/blob/main/16_4_3.png)
+![3](https://github.com/expgt/net-fops-hw-16-4/blob/main/16_4_3.png)
 
 4. На основе tasks из старого playbook заполнена новая созданная role. Переменные разнесены между `vars` и `default`. 
 5. Перенесены нужные шаблоны конфигов в `templates`.
 6. В `README.md` описаны обе роли и их параметры.
 7. Выполнены шаги 3–6 для LightHouse.
 
-![7_1](https://github.com/expgt/net-fops-hw-16-1/blob/main/16_4_7_1.png)
+![7_1](https://github.com/expgt/net-fops-hw-16-4/blob/main/16_4_7_1.png)
 
-![7_2](https://github.com/expgt/net-fops-hw-16-1/blob/main/16_4_7_2.png)
+![7_2](https://github.com/expgt/net-fops-hw-16-4/blob/main/16_4_7_2.png)
 
 8. Все roles выложены в репозитории. Проставлены теги, используя семантическую нумерацию. Добавлены roles в `requirements.yml` в playbook.
 9. Playbook переработан на использование roles, учтены зависимости LightHouse и возможности совмещения `roles` с `tasks`.
